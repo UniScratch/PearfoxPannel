@@ -3,7 +3,6 @@ from mirai import Mirai, WebSocketAdapter, FriendMessage
 import yaml,json,_thread
 
 def botrun():
-
 	bot.run()
 # 导入配置
 with open('./config.yml', 'r', encoding='utf-8') as f:
